@@ -17,9 +17,5 @@
       "command": "vendor/bin/heroku-php-apache2 web/"
     }
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:hobby-dev"
-    }
-  ]
+  "addons": ["heroku-postgresql:hobby-dev"]
 }
