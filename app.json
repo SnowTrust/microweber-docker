@@ -1,0 +1,27 @@
+{
+  "name": "Microweber CMS",
+  "description": "A minimal Microweber CMS website",
+  "repository": "https://github.com/snowtrust/microweber-heroku",
+  "keywords": [
+    "php",
+    "cms",
+    "website",
+    "microweber"
+  ],
+  "success_url": "/webinstall.php",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free",
+      "command": "vendor/bin/heroku-php-apache2 web/"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ]
+}
