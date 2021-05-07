@@ -2,6 +2,7 @@
   "name": "Microweber CMS",
   "description": "A minimal Microweber CMS website",
   "repository": "https://github.com/snowtrust/microweber-heroku",
+  "logo": "https://microweber.org/userfiles/modules/videos_streaming/assets/img/logo_avatar.png",
   "keywords": [
     "php",
     "cms",
