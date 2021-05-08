@@ -1,6 +1,9 @@
 {
+  "name": "snowtrust/microweber",
+  "description": "A minimal microweber app",
   "require": {
-    "ext-gd": "*"
+    "ext-gd": "*",
+    "ext-mcrypt": "*"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
